@@ -1,5 +1,5 @@
 import { pickBestName } from './pickBestName.js';
-import { pickTwitterUsername } from './pickTwitterUsername.js';
+import { pickTwitterUsername } from './providers/twitter.js';
 
 const dropFalsey = obj => {
     return Object.keys(obj).reduce((acc, key) => {
@@ -10,11 +10,11 @@ const dropFalsey = obj => {
     }, {});
 };
 
-export const transform = (ghProfile, gravProfile, inferredName, companyFromEmail) => {
+export const transform = (ghProfile, glProfile, gravProfile, inferredName, companyFromEmail) => {
     const twitterUsername = pickTwitterUsername(ghProfile, gravProfile);
 
     const bestGuess = {
-        name: pickBestName(ghProfile, gravProfile, inferredName),
+        name: pickBestName(ghProfile, glProfile, gravProfile, inferredName),
         displayName: gravProfile?.[0].displayName,
         company: ghProfile?.company || companyFromEmail,
         avatarUrl: ghProfile?.avatar_url || gravProfile?.[0].photos?.[0].value,
@@ -30,6 +30,7 @@ export const transform = (ghProfile, gravProfile, inferredName, companyFromEmail
         guess: dropFalsey(bestGuess),
         profiles: {
             github: ghProfile,
+            gitlab: glProfile,
             gravatar: gravProfile
         }
     };
