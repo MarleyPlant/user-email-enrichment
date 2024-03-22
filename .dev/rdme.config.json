@@ -1,0 +1,138 @@
+{
+  "name": "",
+  "description": "",
+  "gitPath": "",
+  "sections": [
+    "Brands",
+    "Contributors"
+  ],
+  "sectionconfig": {
+    "Brands": {
+      "order": 0,
+      "data": [
+        "tools.0",
+        "llanguages:.4"
+      ]
+    },
+    "Contributors": {
+      "order": 1,
+      "data": [
+        {
+          "email": "marley@marleyplant.com",
+          "profiles": {
+            "github": {
+              "username": "MarleyPlant",
+              "avatar_url": "https://avatars.githubusercontent.com/u/5164806?v=4",
+              "profile_url": "https://github.com/MarleyPlant",
+              "website": "http://marleyplant.com",
+              "name": "Marley Plant",
+              "location": "Aberystwyth",
+              "company": null,
+              "bio": "Web Designer, Photographer and IT Professional",
+              "twitter_username": null,
+              "orgs": []
+            },
+            "gravatar": [
+              {
+                "profileUrl": "https://gravatar.com/marleyjosephplant",
+                "preferredUsername": "marleyjosephplant",
+                "displayName": "marleyjosephplant",
+                "urls": [],
+                "photos": [
+                  {
+                    "value": "https://1.gravatar.com/avatar/98ad8e576a24a5c8e94819b0ecf6e5f5",
+                    "type": "thumbnail"
+                  }
+                ]
+              }
+            ],
+            "gitlab": {
+              "profile_url": "https://gitlab.com/MarleyPlant",
+              "avatar_url": "https://gitlab.com/uploads/-/system/user/avatar/718410/avatar.png",
+              "username": "MarleyPlant",
+              "name": "Marley Plant"
+            }
+          }
+        },
+        {
+          "email": "david.g1591@googlemail.com",
+          "profiles": {}
+        },
+        {
+          "email": "beagles1986@gmail.com",
+          "profiles": {}
+        },
+        {
+          "email": "thibaud.ducasse@gmail.com",
+          "profiles": {
+            "gravatar": [
+              {
+                "profileUrl": "https://gravatar.com/tducasse",
+                "preferredUsername": "tducasse",
+                "displayName": "tducasse",
+                "urls": [],
+                "photos": [
+                  {
+                    "value": "https://1.gravatar.com/avatar/2d8ae42918feb1f2de503266495a34bc",
+                    "type": "thumbnail"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "email": "raffaelecalza4@gmail.com",
+          "profiles": {
+            "gravatar": [
+              {
+                "profileUrl": "https://gravatar.com/raffaelecalza",
+                "preferredUsername": "raffaelecalza",
+                "displayName": "raffa",
+                "urls": [],
+                "photos": [
+                  {
+                    "value": "https://0.gravatar.com/avatar/2937340d084be856d395c3842aa9e4bf",
+                    "type": "thumbnail"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "email": "taitbrown@gmail.com",
+          "profiles": {
+            "github": {
+              "username": "taitems",
+              "avatar_url": "https://avatars.githubusercontent.com/u/234593?v=4",
+              "profile_url": "https://github.com/taitems",
+              "website": "http://taitbrown.com",
+              "name": "Tait Brown",
+              "location": "Melbourne, Australia",
+              "company": "A Cloud Guru",
+              "bio": null,
+              "twitter_username": "taitems",
+              "orgs": []
+            },
+            "gravatar": [
+              {
+                "profileUrl": "https://gravatar.com/taitems",
+                "preferredUsername": "taitems",
+                "displayName": "taitems",
+                "urls": [],
+                "photos": [
+                  {
+                    "value": "https://0.gravatar.com/avatar/b8e2f6a7bcacf56bdcdded55e661e013",
+                    "type": "thumbnail"
+                  }
+                ],
+                "currentLocation": "Melbourne, Australia"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

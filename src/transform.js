@@ -31,7 +31,7 @@ export const transform = (ghProfile, glProfile, gravProfile, inferredName, compa
         profiles: {
             github: ghProfile,
             gitlab: glProfile,
-            gravatar: gravProfile
+            gravatar: gravProfile[0]
         }
     };
 };
