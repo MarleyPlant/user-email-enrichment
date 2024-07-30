@@ -1,7 +1,7 @@
 import emailToName from 'email-to-name';
 import { getCompanyFromEmail, getGitHubInfo, getGitlab, getGravatar } from './providers/index.js';
 import { transform } from './transform.js';
-const enrich = async (email) => {
+export async function enrich (email) {
   if (!email) {
     throw "error";
   } else {
@@ -15,7 +15,6 @@ const enrich = async (email) => {
       try {
         results[key] = await value(email);
       } catch (e) {
-        console.error(e);
       }
 
     }
@@ -24,4 +23,3 @@ const enrich = async (email) => {
     // return transform(ghProfile, gravatar, nameFromEmail, companyFromEmail);
   }
 };
-export default enrich;

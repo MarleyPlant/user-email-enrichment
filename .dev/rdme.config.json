@@ -11,15 +11,50 @@
       "order": 0,
       "data": [
         "tools.0",
-        "llanguages:.4"
+        "llanguages:.4",
+        "typescript",
+        "javascript",
+        "npm",
+        "gravatar"
       ]
     },
+    "Development": {
+      "theme": "default",
+      "order": 1
+    },
+    "Shields": {
+      "theme": "default",
+      "order": 0
+    },
+    "Custom": {
+      "theme": "default",
+      "order": 2
+    },
+    "License": {
+      "theme": "default",
+      "order": 5
+    },
+    "RelatedProjects": {
+      "theme": "default",
+      "order": 6
+    },
     "Contributors": {
-      "order": 1,
       "data": [
         {
-          "email": "marley@marleyplant.com",
+          "name": "marley plant",
+          "avatar_url": [
+            "https://avatars.githubusercontent.com/u/5164806?v=4",
+            "https://gitlab.com/uploads/-/system/user/avatar/718410/avatar.png",
+            "https://avatars.githubusercontent.com/u/5164806?v=4",
+            "https://gitlab.com/uploads/-/system/user/avatar/718410/avatar.png"
+          ],
+          "email": [
+            "marley@marleyplant.com"
+          ],
+          "commits": 3,
           "profiles": {
+            "name": "Marley",
+            "company": "marleyplant.com",
             "github": {
               "username": "MarleyPlant",
               "avatar_url": "https://avatars.githubusercontent.com/u/5164806?v=4",
@@ -37,7 +72,6 @@
                 "profileUrl": "https://gravatar.com/marleyjosephplant",
                 "preferredUsername": "marleyjosephplant",
                 "displayName": "marleyjosephplant",
-                "urls": [],
                 "photos": [
                   {
                     "value": "https://1.gravatar.com/avatar/98ad8e576a24a5c8e94819b0ecf6e5f5",
@@ -55,41 +89,19 @@
           }
         },
         {
-          "email": "david.g1591@googlemail.com",
-          "profiles": {}
-        },
-        {
-          "email": "beagles1986@gmail.com",
-          "profiles": {}
-        },
-        {
-          "email": "thibaud.ducasse@gmail.com",
+          "name": "raffaele",
+          "avatar_url": [],
+          "email": [
+            "raffaelecalza4@gmail.com"
+          ],
+          "commits": 9,
           "profiles": {
-            "gravatar": [
-              {
-                "profileUrl": "https://gravatar.com/tducasse",
-                "preferredUsername": "tducasse",
-                "displayName": "tducasse",
-                "urls": [],
-                "photos": [
-                  {
-                    "value": "https://1.gravatar.com/avatar/2d8ae42918feb1f2de503266495a34bc",
-                    "type": "thumbnail"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "email": "raffaelecalza4@gmail.com",
-          "profiles": {
+            "name": "Raffaelecalza",
             "gravatar": [
               {
                 "profileUrl": "https://gravatar.com/raffaelecalza",
                 "preferredUsername": "raffaelecalza",
                 "displayName": "raffa",
-                "urls": [],
                 "photos": [
                   {
                     "value": "https://0.gravatar.com/avatar/2937340d084be856d395c3842aa9e4bf",
@@ -101,26 +113,19 @@
           }
         },
         {
-          "email": "taitbrown@gmail.com",
+          "name": "tait brown",
+          "avatar_url": [],
+          "email": [
+            "taitbrown@gmail.com"
+          ],
+          "commits": 49,
           "profiles": {
-            "github": {
-              "username": "taitems",
-              "avatar_url": "https://avatars.githubusercontent.com/u/234593?v=4",
-              "profile_url": "https://github.com/taitems",
-              "website": "http://taitbrown.com",
-              "name": "Tait Brown",
-              "location": "Melbourne, Australia",
-              "company": "A Cloud Guru",
-              "bio": null,
-              "twitter_username": "taitems",
-              "orgs": []
-            },
+            "name": "Taitbrown",
             "gravatar": [
               {
                 "profileUrl": "https://gravatar.com/taitems",
                 "preferredUsername": "taitems",
                 "displayName": "taitems",
-                "urls": [],
                 "photos": [
                   {
                     "value": "https://0.gravatar.com/avatar/b8e2f6a7bcacf56bdcdded55e661e013",
@@ -131,8 +136,45 @@
               }
             ]
           }
+        },
+        {
+          "name": "shinshin86",
+          "avatar_url": [],
+          "email": [
+            "beagles1986@gmail.com"
+          ],
+          "commits": 3,
+          "profiles": {
+            "name": "Beagles"
+          }
+        },
+        {
+          "name": "thibaud ducasse",
+          "avatar_url": [],
+          "email": [
+            "thibaud.ducasse@gmail.com"
+          ],
+          "commits": 3,
+          "profiles": {
+            "name": "Thibaud Ducasse",
+            "gravatar": [
+              {
+                "profileUrl": "https://gravatar.com/tducasse",
+                "preferredUsername": "tducasse",
+                "displayName": "tducasse",
+                "photos": [
+                  {
+                    "value": "https://1.gravatar.com/avatar/2d8ae42918feb1f2de503266495a34bc",
+                    "type": "thumbnail"
+                  }
+                ]
+              }
+            ]
+          }
         }
-      ]
+      ],
+      "order": 4,
+      "theme": "pictures"
     }
   }
 }
